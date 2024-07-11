@@ -22,5 +22,7 @@ public class Student {
 		com.companyName();
 		com.companyId();
 		
+		System.out.println("Hello World");
+		
 	}
 }
