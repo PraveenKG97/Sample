@@ -1,5 +1,8 @@
 package com.data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.base.CompanyData;
 
 //different package different classes
@@ -22,5 +25,13 @@ public class Student {
 		com.companyName();
 		com.companyId();
 		
+		List<Object> l = new ArrayList<>();
+		l.add("jack");
+		l.add(1234);
+		l.add(true);
+		l.add(null);
+		l.add(1234);
+		
+		System.out.println(l);
 	}
 }
